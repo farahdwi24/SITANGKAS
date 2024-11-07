@@ -1,0 +1,104 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: Geneva;
+}
+
+th,
+td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(39, 205, 165, 0.36);
+    border-bottom: 1px solid black;
+}
+
+.print-btn {
+    background-color: #fbc02d;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    left: 0;
+}
+
+.print-btn:hover {
+    background-color: #f9a825;
+}
+
+.print-btn i {
+    color: black;
+}
+
+#payrollDetails,
+#payrollAbsent {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 120px;
+    left: 0;
+}
+
+#payrollDetailsContent,
+#payrollAbsentContent {
+    display: none;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
+
+.back-btn {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+
+    #payrollDetails,
+    #payrollAbsent {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 10px;
+    }
+
+    .print-btn,
+    .back-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .print-btn {
+        padding: 10px;
+    }
+}

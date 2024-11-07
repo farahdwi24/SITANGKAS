@@ -1,0 +1,175 @@
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.content {
+    margin-top: 50px;
+    flex-grow: 1;
+    font-family: 'poppins';
+    flex-direction: column;
+    display: flex;
+}
+
+.content h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.content p {
+    color: #2F897D;
+    text-align: center;
+}
+
+.upload-btn {
+    background-color: #2F897D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 100px auto;
+    display: block;
+}
+
+.upload-btn:hover {
+    background-color: #45a049;
+}
+
+.upload-btn i {
+    margin-left: 8px;
+    vertical-align: middle;
+    color: black;
+    font-size: 24px;
+
+}
+
+
+.date-picker {
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    display: flex;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    font-size: 16px;
+    background-color: #E1DEDE;
+    width: 200px;
+}
+
+.date-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    background-color: #E1DEDE;
+    width: 100px;
+    border-right: 1px solid #ccc;
+    position: relative;
+}
+
+.date-display .month {
+    font-weight: bold;
+}
+
+.date-display .year {
+    color: #333;
+    margin-top: 10px;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #c6c2c2;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.search-button {
+    background-color: #c6c2c2;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 70px;
+}
+
+.search-button:hover {
+    background-color: #b5b3b3;
+}
+
+.search-button:focus {
+    outline: none;
+}
+
+.bottom-right-img {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 30%;
+}
+
+.date-picker {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu {
+    position: absolute;
+    margin-top: 70px;
+    right: 0;
+    margin-right: 50px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+
