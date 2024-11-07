@@ -1,2 +1,2 @@
 # SITANGKAS
-Aplikasi Cleaning Service FMIPA UNHAS
+Aplikasi Web Cleaning Service FMIPA UNHAS
